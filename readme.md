@@ -6,4 +6,4 @@
     
    ** plz add .env file and set your database
 
-![alt text](https://imgur.com/VPDS9sk)
+![alt text](https://i.imgur.com/VPDS9sk.png)
