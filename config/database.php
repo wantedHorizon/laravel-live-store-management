@@ -45,12 +45,12 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('sql206.epizy.com'),
-            'host' => env('DB_HOST', 'sql206.epizy.com'),
+            'url' => env(''),
+            'host' => env('DB_HOST', 'eliran94.heliohost.org'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'epiz_26172323_eliran'),
-            'username' => env('DB_USERNAME', 'epiz_26172323'),
-            'password' => env('DB_PASSWORD', 'eliran94'),
+            'database' => env('DB_DATABASE', 'eliran94_laravel'),
+            'username' => env('DB_USERNAME', 'eliran94_admin'),
+            'password' => env('DB_PASSWORD', 'h@tPX8fmP8wa'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
