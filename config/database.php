@@ -48,7 +48,7 @@ return [
             'url' => env(''),
             'host' => env('DB_HOST', 'eliran94.heliohost.org'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'eliran94_laravel'),
+            'database' => env('DB_DATABASE', 'eliran94_laravel2'),
             'username' => env('DB_USERNAME', 'eliran94_admin'),
             'password' => env('DB_PASSWORD', 'h@tPX8fmP8wa'),
             'unix_socket' => env('DB_SOCKET', ''),
