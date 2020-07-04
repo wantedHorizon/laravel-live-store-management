@@ -45,12 +45,12 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL'),
+            'url' => env('sql206.epizy.com'),
             'host' => env('DB_HOST', 'sql206.epizy.com'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'epiz_26172323_eliran'),
             'username' => env('DB_USERNAME', 'epiz_26172323'),
-            'password' => env('DB_PASSWORD', '205484900'),
+            'password' => env('DB_PASSWORD', 'eliran94'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
