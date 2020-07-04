@@ -24,11 +24,11 @@ Route::post('/items/update_data', 'ItemController@update_data')->name('items.upd
 Route::post('/items/delete_data', 'ItemController@delete_data')->name('items.delete_data');
 
 
-Route::get('/items', 'ItemController@index')->name('items.index')->middleware('auth');
-Route::get('/items/create', 'ItemController@create')->name('items.create')->middleware('auth');
-Route::post('/items', 'ItemController@store')->name('items.store')->middleware('auth');
-Route::get('/items/{id}', 'ItemController@show')->name('items.show')->middleware('auth');
-Route::delete('items/{id}', 'ItemController@destroy')->name('items.destroy')->middleware('auth');
+Route::get('/items', 'ItemController@index')->name('items.index');
+Route::get('/items/create', 'ItemController@create')->name('items.create');
+Route::post('/items', 'ItemController@store')->name('items.store');
+Route::get('/items/{id}', 'ItemController@show')->name('items.show');
+Route::delete('items/{id}', 'ItemController@destroy')->name('items.destroy');
 
 //clients
 //Route::get('/client', 'ClientController@index')->name('client.index')->middleware('auth');

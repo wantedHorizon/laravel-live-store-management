@@ -9,6 +9,12 @@ use function Sodium\add;
 class ItemController extends Controller
 {
     //
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index(){
 //        $arr = Items::all();
         $arr =Item::orderBy('name')->get();

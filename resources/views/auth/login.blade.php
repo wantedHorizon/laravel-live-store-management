@@ -7,6 +7,8 @@
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 
+
+
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
@@ -38,7 +40,11 @@
                                 @enderror
                             </div>
                         </div>
-
+                        <p class="text-center">
+                            email: test@test.com
+                            <br>
+                            password: 123456789
+                        </p>
                         <div class="form-group row">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
