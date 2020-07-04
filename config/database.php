@@ -46,10 +46,10 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'db4free.net'),
+            'host' => env('DB_HOST', 'sql206.epizy.com'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'laravel_eliran'),
-            'username' => env('DB_USERNAME', 'eliran94'),
+            'database' => env('DB_DATABASE', 'epiz_26172323_eliran'),
+            'username' => env('DB_USERNAME', 'epiz_26172323'),
             'password' => env('DB_PASSWORD', '205484900'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
